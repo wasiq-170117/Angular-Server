@@ -19,7 +19,7 @@ ConnectDatabase();
 app.use("/userRoutes/", userRoute);
 
 app.get("/", (req, res) => {
-    res.json('Server is running');
+    res.json('Server is up and running');
 })
 
 const PORT = process.env.PORT || 5000;
