@@ -23,4 +23,5 @@ jobs:
     - name: Build
       run: |
         npm install
-        pm2 restart server.js
+        npm install pm2
+        npx pm2 restart server.js
